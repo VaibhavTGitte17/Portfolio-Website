@@ -27,7 +27,6 @@ function PortFolio() {
      
       sourceCodeLink: "https://github.com/VaibhavTGitte17/DocumentManager.git"
     },
-    ,
     {
       id: 3,
       image: village,
@@ -83,7 +82,7 @@ function PortFolio() {
       description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic corrupti odio assumenda voluptatibus alias esse beatae accusantium dolorum nisi.",
      
       sourceCodeLink: "https://github.com/VaibhavTGitte17/FoodWebsite-Reactjs-MUI.git"
-    },
+    }
   ];
 
   return (

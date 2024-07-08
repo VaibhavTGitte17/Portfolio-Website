@@ -85,6 +85,7 @@ function Home() {
                     <a
                       href="https://www.facebook.com/"
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="group"
                     >
                       <FaSquareFacebook className="text-3xl md:text-4xl cursor-pointer text-blue-600 transition-colors duration-300" />
@@ -97,6 +98,7 @@ function Home() {
                     <a
                       href="https://www.linkedin.com/in/vaibhav-gitte-81b06621b/"
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="group"
                     >
                       <FaLinkedin className="text-3xl md:text-4xl cursor-pointer text-blue-700 transition-colors duration-300" />
@@ -109,6 +111,7 @@ function Home() {
                     <a
                       href="https://www.youtube.com/"
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="group"
                     >
                       <IoLogoYoutube className="text-3xl md:text-4xl cursor-pointer text-red-600 transition-colors duration-300" />
@@ -118,7 +121,7 @@ function Home() {
                     variants={iconVariants}
                     whileHover="hover"
                   >
-                    <a href="https://t.me/" target="_blank" className="group">
+                    <a href="https://t.me/" target="_blank" rel="noopener noreferrer" className="group">
                       <FaTelegram className="text-3xl md:text-4xl cursor-pointer text-blue-400 transition-colors duration-300" />
                     </a>
                   </motion.li>

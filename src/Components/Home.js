@@ -1,12 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import pic from "../Images/swaraj.jpg";
-
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa6";
-
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
@@ -144,6 +142,42 @@ function Home() {
               alt="Profile"
             />
           </motion.div>
+        </div>
+      </div>
+
+      <div className="bg-gray-900 py-10 text-white">
+        <div className="w-full mx-auto px-2 md:px-10 flex flex-col md:flex-row gap-x-4"> {/* Added gap */}
+          {/* LinkedIn Section */}
+          <div className="flex-1 mb-6 md:mb-0">
+            <h2 className="text-2xl font-bold mb-4">Connect with Me on LinkedIn</h2>
+            <p className="text-md mb-4">
+              LinkedIn is a great place to connect with professionals in your industry. Check out my LinkedIn profile to see my work experience, recommendations, and more about my professional journey.
+            </p>
+            <a
+              href="http://linkedin.com/in/vaibhav-tukaram-gitte-81b06621b"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-600 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded"
+            >
+              Go to LinkedIn
+            </a>
+          </div>
+
+          {/* GitHub Section */}
+          <div className="flex-1">
+            <h2 className="text-2xl font-bold mb-4">Explore My GitHub Projects</h2>
+            <p className="text-md mb-4">
+              My GitHub profile showcases various projects I have worked on, including open-source contributions and personal projects. Feel free to explore my repositories and see the code behind my work.
+            </p>
+            <a
+              href="https://github.com/VaibhavTGitte17" // Replace with your GitHub profile link
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-pink-600 hover:bg-pink-900 text-white font-bold py-2 px-4 rounded"
+            >
+              Go to GitHub
+            </a>
+          </div>
         </div>
       </div>
 
